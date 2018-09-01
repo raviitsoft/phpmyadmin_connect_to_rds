@@ -25,4 +25,24 @@ $cfg['Servers'][$i]['compress']      = FALSE;
 $cfg['Servers'][$i]['auth_type']     = 'config';
 $cfg['Servers'][$i]['user']          = '__FILL_IN_DETAILS__';
 $cfg['Servers'][$i]['password']      = '__FILL_IN_DETAILS__';
+
+
+
+chmod -R 777 /var/www/html
+
+Install git on aws
+
+sudo yum install git
+
+after clone repo
+movning folder on root
+sudo mv floderName/" .
+
+remov folder 
+sudo rm -rf floderName
+
+
+
 ```
+
+
