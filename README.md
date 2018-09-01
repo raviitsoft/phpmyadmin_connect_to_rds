@@ -41,6 +41,13 @@ sudo mv floderName/" .
 remov folder 
 sudo rm -rf floderName
 
+This is about path based routing in application load balancer.
+
+#!/bin/bash
+yum install httpd -y 
+service httpd start
+mkdir /var/www/html/hello
+echo "Hello World !!"  /var/www/html/hello/index.html
 
 
 ```
